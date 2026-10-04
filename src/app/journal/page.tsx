@@ -15,6 +15,114 @@ type Entry = {
 
 const ENTRIES: Entry[] = [
   {
+    date: "4 October 2026",
+    title: "Treatment drafted, three structural questions resolved",
+    body: (
+      <>
+        <p>
+          The first full treatment is written — a scene-level outline, around five thousand words,
+          braiding three perspectives (the ship, the deck, London) that only converge at the end of
+          the film. Three questions open at the synopsis stage are now closed.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            The protagonist and Equiano do not meet on screen.
+          </strong>{" "}
+          Their connection is implied through the maritime Black-Atlantic network of dockworkers,
+          deckhands, and freed Black sailors through whom news of the <em>Zong</em> reached London.
+          The audience sees testimony being carried; the camera never names the carriers. There is
+          no evidence any <em>Zong</em> survivor spoke directly to Equiano, and dramatizing a
+          meeting would soften the specific horror the film is built around.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Sharp&apos;s defeat in <em>Gregson v Gilbert</em> is the denouement, not the climax.
+          </strong>{" "}
+          The climax is the massacre itself. The courtroom is a stated, quiet beat near the end —
+          a historical fact noted and moved past. The film is not about Sharp winning or losing. It
+          is about the record forming.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            The Jamaica third act is held briefly, twice.
+          </strong>{" "}
+          Once at the end of the Atlantic crossing — the ship arrives, the survivors are offloaded
+          into a chattel-slavery economy that does not end for decades. Once more in a coda, years
+          on, the protagonist in a single scene of ordinary life. No long epilogue, no softening
+          descent.
+        </p>
+        <p className="mt-4">
+          The treatment lives in the production folder; the <Link href="/sources">sources list</Link>{" "}
+          and the character sheets are the next pass.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
+    title: "Primary-source pass on the claim ledger",
+    body: (
+      <>
+        <p>
+          Three load-bearing claims in the production&apos;s internal register upgraded today from
+          &ldquo;pending excerpt&rdquo; to &ldquo;excerpted,&rdquo; using the Walvin monograph,
+          Hoare&apos;s nineteenth-century <em>Memoirs of Granville Sharp</em>, and the standard
+          scholarly consensus on the <em>Zong</em>&apos;s origin.
+        </p>
+        <p className="mt-4">
+          The ship was not purchased at Cape Coast Castle, as an earlier draft of the ledger
+          implied — it was the Dutch slaver <em>Zorg</em>, captured by the British on 10 February
+          1781 during the Fourth Anglo-Dutch War and acquired by the Liverpool-based Gregson
+          syndicate. <em>Zong</em> is a transcription of the Dutch name, not a formal renaming.
+          Correction logged.
+        </p>
+        <p className="mt-4">
+          Granville Sharp&apos;s diary entry of 19 March 1783 — the first contemporary record of
+          Equiano&apos;s visit — is now carried in the ledger with Walvin&apos;s transcription:{" "}
+          <em>
+            &ldquo;Gustavas Vasa a Negro called on me with an account of 130 Negroes being thrown
+            Alive into the sea from on Board an English Slave Ship.&rdquo;
+          </em>{" "}
+          Direct inspection at the Gloucestershire Archives is still required before any on-screen
+          reproduction, but the film&apos;s dramatization is now anchored to the same number
+          (&ldquo;more than one hundred and thirty&rdquo;) that Sharp himself recorded.
+        </p>
+        <p className="mt-4">
+          Still blocking: the full text of the 18 March 1783 anonymous letter in <em>The Morning
+          Chronicle and London Advertiser</em>. It lives in the Burney Collection at the British
+          Library and is not yet digitally accessible. Until we have it in facsimile, nothing from
+          the letter can be reproduced directly in the film or on this site.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
+    title: "A first visual pass, with the caveat that it is temporary",
+    body: (
+      <>
+        <p>
+          The site now carries five images: a hero background, three triptych panels (ship, deck,
+          London), and a social-share card. All were generated through text-to-image models from
+          prompts written against the film&apos;s dignity rules: no human faces, no figurative
+          violence, no reproduction of real historical persons, no shot of a body meeting water.
+        </p>
+        <p className="mt-4">
+          These are not production stills. They are atmospheric placeholders — a wet oak hull, a
+          rain-slick deck, a Georgian London desk under candlelight — chosen to let the project be
+          visible on the public web before the first finished scene exists. When the first proper
+          shot of the film is cut, these will come down.
+        </p>
+        <p className="mt-4">
+          The decision to publish temporary visuals at all was deliberate. A site this early that
+          carries only text reads as pre-production vapor. A site that carries fully rendered
+          characters would overstate what has been decided. The images we chose split the
+          difference: material, period, textural — surfaces, not people.
+        </p>
+      </>
+    ),
+  },
+  {
     date: "3 October 2026",
     title: "Direction locked on the London arc",
     body: (
