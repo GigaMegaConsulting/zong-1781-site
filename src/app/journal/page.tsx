@@ -16,6 +16,80 @@ type Entry = {
 const ENTRIES: Entry[] = [
   {
     date: "4 October 2026",
+    title: "First-draft screenplay complete — all twenty-two scenes",
+    body: (
+      <>
+        <p>
+          The first draft of the full screenplay is written. All twenty-two scenes, from the
+          ninety-second cold open on the open North Atlantic to the closing title cards, exist as
+          scene-level screenplay drafts with shot-grammar enforcement, casting notes, and
+          historical sourcing for every load-bearing claim.
+        </p>
+        <p className="mt-4">
+          The running total of marked screen time is about fifty-eight minutes. The target feature
+          run is ninety. The thirty-minute gap is deliberate: the massacre sequence across Scenes 8
+          through 12 is allowed to breathe, and the slower beats of Act III — the protagonist in the
+          Jamaica field in Scene 20, Equiano at his writing desk in 1789 in Scene 21 — are allowed
+          the duration they ask for.
+        </p>
+        <p className="mt-4">
+          Among the creative calls now locked:
+        </p>
+        <ul className="list-none space-y-3 pl-0 mt-5">
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>
+              The protagonist is never named on screen. He is called{" "}
+              <em>Kweku</em> — Wednesday-born, Akan day name — in production records and on the
+              call sheet, but the film does not speak his name. The historical record did not
+              preserve the names of the people killed on the <em>Zong</em>, and the film honors
+              that.
+            </span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>
+              The seven day names the protagonist speaks in the Jamaica scene are earned on screen,
+              given to him by Yaa across the first and second nights of the massacre in the hold.
+              By the time the audience reaches that scene, every one of the seven has been placed
+              into the architecture of memory by someone it belonged to.
+            </span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>
+              Granville Sharp&apos;s diary entry of 19 March 1783 appears as the film&apos;s only
+              primary-source overlay — the Walvin transcription, in a Georgian hand, over the shot
+              of Sharp writing while Equiano speaks. One overlay, used once.
+            </span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>
+              Sharp&apos;s defeat in the courtroom is the denouement, not the climax. The massacre
+              itself was the climax; the court case is noted, then moved past. The scene ends on
+              Sharp walking down the steps of Westminster Hall into a city that has not changed.
+            </span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>
+              The camera does not see a body meet the water. Not once, in two hours of film. The
+              rules under § 7 of the shot grammar are enforced absolutely across the massacre
+              scenes.
+            </span>
+          </li>
+        </ul>
+        <p className="mt-5">
+          Next: shot lists for the first scenes to be built as animatics, a running-time pressure
+          test on the full screenplay, and the primary-source blockers that remain — the Burney
+          Collection facsimile of the <em>Morning Chronicle</em> letter above all.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
     title: "The protagonist is Akan — from the Gold Coast, not the Bight of Biafra",
     body: (
       <>
