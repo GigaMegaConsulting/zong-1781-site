@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f0f14;
+  --color-ink-2: #15151c;
+  --color-ink-soft: #363641;
+  --color-cream: #ecdfc5;
+  --color-cream-soft: #d6cab2;
+  --color-parchment: #e8dcc4;
+  --color-oxblood: #7a1f1f;
+  --color-dusty-rose: #a8615f;
+  --color-amber: #c89060;
+
+  --font-display: "Cormorant Garamond", "Lora", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+}
+
+html {
+  background: var(--color-ink);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-cream);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-amber) 60%, transparent);
+  text-underline-offset: 3px;
+  transition: color 160ms ease;
+}
+
+a:hover {
+  color: var(--color-amber);
+}
+
+.serif { font-family: var(--font-display); }
+.body { font-family: var(--font-body); }
+
+.rule {
+  height: 1px;
+  background: linear-gradient(to right, transparent, color-mix(in srgb, var(--color-cream) 30%, transparent), transparent);
+}
+
+.rule-left {
+  height: 1px;
+  background: linear-gradient(to right, color-mix(in srgb, var(--color-cream) 25%, transparent), transparent);
+}
