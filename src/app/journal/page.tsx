@@ -16,6 +16,63 @@ type Entry = {
 const ENTRIES: Entry[] = [
   {
     date: "4 October 2026",
+    title: "Sharp's own hand — a primary source now in the record",
+    body: (
+      <>
+        <p>
+          Gloucestershire Archives has published a transcript of Granville Sharp&apos;s own letter
+          to William Baker, dated 23 May 1783 — written between the first trial of{" "}
+          <em>Gregson v Gilbert</em> in March and the retrial in the King&apos;s Bench the
+          following month. The transcript is now in the production&apos;s source register as{" "}
+          <strong className="font-normal italic text-[color:var(--color-amber)]">SH3</strong>, with
+          the full link on the <Link href="/sources">sources</Link> page.
+        </p>
+        <p className="mt-4">
+          The letter — in Sharp&apos;s own hand — changes three things in the film&apos;s working
+          record.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            The enslaved were thrown with their hands fettered.
+          </strong>{" "}
+          This detail is from Sharp&apos;s own account and is now load-bearing for the massacre
+          sequence. The audience will hear the sound of iron shackle-chain accompanying the
+          lifting-and-lowering through the hatch; the chain-sound is louder in the mix than the
+          splash of the body itself. The people being killed could not swim, could not float, could
+          not reach the surface.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Fifty-four people were cast into the sea on the first day — before any short-water
+            ration was imposed.
+          </strong>{" "}
+          The treatment and the first-draft screenplay had the killings paced across three nights
+          roughly evenly. The record is heavier than that on the first night. Scene 6 (the proposal
+          in Collingwood&apos;s cabin) and Scene 8 (the first night in the hold) are updated to
+          reflect the first-day weight.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Sixty people had already died in the hold of gaol-fever, before the water shortage was
+            discovered.
+          </strong>{" "}
+          Sharp names this in the letter — a product of overcrowding, not of thirst. The scene in
+          which a man&apos;s body is lifted up and lowered over the side (Scene 5) is now anchored
+          to this specific documentary context.
+        </p>
+        <p className="mt-4">
+          Sharp also characterizes the court action — in words the film&apos;s courtroom scene can
+          now use — as{" "}
+          <em>&ldquo;a mere mercenary business about the pecuniary value of the Negroes.&rdquo;</em>{" "}
+          Equiano&apos;s voice is the film&apos;s access to the lower-London network that carried
+          the account. Sharp&apos;s is now, through this letter, the film&apos;s access to his
+          own.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
     title: "First-draft screenplay complete — all twenty-two scenes",
     body: (
       <>

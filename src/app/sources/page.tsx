@@ -46,6 +46,17 @@ const SOURCES: Source[] = [
       "Sharp's demand for murder charges against the Zong crew. The 'uncovered letter' central to Michelle Faubert's 2022 monograph.",
   },
   {
+    id: "SH3",
+    type: "primary",
+    authorOrBody: "Granville Sharp",
+    title: "Letter to William Baker, 23 May 1783",
+    date: "23 May 1783",
+    href:
+      "https://www.gloucestershire.gov.uk/media/chvhqn35/appendix_o_granville_sharp_transcipts-25462.pdf",
+    note:
+      "Sharp's own account of the Zong, written between the first trial and the retrial. Contains the detail that the enslaved were thrown with their hands fettered; that 54 were cast overboard on the first day before short-water rationing was imposed; and Sharp's characterization of the court case as 'a mere mercenary business about the pecuniary value of the Negroes.' Transcript published online by Gloucestershire Archives.",
+  },
+  {
     id: "GG1",
     type: "legal",
     authorOrBody: "King's Bench",
