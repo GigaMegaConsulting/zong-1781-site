@@ -27,20 +27,20 @@ export default function HomePage() {
         </nav>
 
         {/* hero */}
-        <section className="relative px-6 sm:px-10 pt-24 pb-28 sm:pt-32 sm:pb-40">
-          <div aria-hidden className="absolute inset-0 -z-10 overflow-hidden">
+        <section className="relative px-6 sm:px-10 pt-24 pb-28 sm:pt-32 sm:pb-40 overflow-hidden isolate">
+          <div aria-hidden className="absolute inset-0 z-0">
             <Image
               src="/hero-bg.png"
               alt=""
               fill
               priority
               sizes="100vw"
-              className="object-cover opacity-55"
+              className="object-cover opacity-90"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--color-ink)]/50 via-[color:var(--color-ink)]/75 to-[color:var(--color-ink)]" />
-            <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-ink)]/60 via-transparent to-[color:var(--color-ink)]/60" />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[color:var(--color-ink)]/40 to-[color:var(--color-ink)]" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-ink)]/50 via-transparent to-[color:var(--color-ink)]/50" />
           </div>
-          <div className="relative max-w-5xl mx-auto">
+          <div className="relative z-10 max-w-5xl mx-auto">
           <p className="text-[11px] uppercase tracking-[0.3em] text-[color:var(--color-amber)]/80 mb-10">
             In production · a serious historical drama
           </p>
