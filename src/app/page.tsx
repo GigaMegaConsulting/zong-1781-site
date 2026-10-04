@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -26,7 +27,20 @@ export default function HomePage() {
         </nav>
 
         {/* hero */}
-        <section className="px-6 sm:px-10 pt-24 pb-28 sm:pt-32 sm:pb-40 max-w-5xl mx-auto">
+        <section className="relative px-6 sm:px-10 pt-24 pb-28 sm:pt-32 sm:pb-40">
+          <div aria-hidden className="absolute inset-0 -z-10 overflow-hidden">
+            <Image
+              src="/hero-bg.png"
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover opacity-55"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-[color:var(--color-ink)]/50 via-[color:var(--color-ink)]/75 to-[color:var(--color-ink)]" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[color:var(--color-ink)]/60 via-transparent to-[color:var(--color-ink)]/60" />
+          </div>
+          <div className="relative max-w-5xl mx-auto">
           <p className="text-[11px] uppercase tracking-[0.3em] text-[color:var(--color-amber)]/80 mb-10">
             In production · a serious historical drama
           </p>
@@ -68,6 +82,7 @@ export default function HomePage() {
               <span aria-hidden>↗</span>
             </Link>
           </div>
+          </div>
         </section>
 
         <div className="px-6 sm:px-10 max-w-5xl mx-auto">
@@ -85,16 +100,19 @@ export default function HomePage() {
             <Perspective
               roman="I"
               title="On the ship"
+              image="/perspective-ship.png"
               body="A young African, taken months earlier from his home region. Below decks he counts, remembers, and keeps someone else's name alive. The dignity the ship is designed to strip from him is what the film is built around."
             />
             <Perspective
               roman="II"
               title="On the deck"
+              image="/perspective-deck.png"
               body="An ordinary English sailor, two or three voyages into this work. He is not the man deciding the massacre. He is the man next to it. The film holds him in that specific moral weight — not a monster, not a hero."
             />
             <Perspective
               roman="III"
               title="In London"
+              image="/perspective-london.png"
               body="Olaudah Equiano, a formerly-enslaved African in London in March 1783, hearing the account through maritime and diasporic networks. The anonymous letter in the Morning Chronicle is his. Granville Sharp, who takes the case into the courts, enters as a crucial supporting character."
             />
           </div>
@@ -207,9 +225,36 @@ export default function HomePage() {
   );
 }
 
-function Perspective({ roman, title, body }: { roman: string; title: string; body: string }) {
+function Perspective({
+  roman,
+  title,
+  body,
+  image,
+}: {
+  roman: string;
+  title: string;
+  body: string;
+  image?: string;
+}) {
   return (
     <div>
+      {image ? (
+        <div className="relative mb-5 aspect-[4/5] overflow-hidden border border-[color:var(--color-cream)]/10">
+          <Image
+            src={image}
+            alt=""
+            fill
+            sizes="(min-width: 640px) 33vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+      ) : (
+        <div className="relative mb-5 aspect-[4/5] overflow-hidden border border-dashed border-[color:var(--color-cream)]/15 bg-[color:var(--color-ink)]/40 flex items-center justify-center">
+          <span className="text-[10px] uppercase tracking-[0.25em] text-[color:var(--color-cream-soft)]/40">
+            In production
+          </span>
+        </div>
+      )}
       <div className="serif italic text-[color:var(--color-amber)] text-sm tracking-widest">{roman}</div>
       <h3 className="serif text-2xl mt-2">{title}</h3>
       <p className="mt-4 text-[14px] leading-relaxed text-[color:var(--color-cream-soft)]/85">{body}</p>
