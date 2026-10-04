@@ -131,6 +131,47 @@ const SOURCES: Source[] = [
     href: "https://www.gloucestershire.gov.uk/archives/",
     note: "Sharp's papers, including the diary referenced above.",
   },
+  {
+    id: "AN1",
+    type: "secondary",
+    authorOrBody: "Wikipedia (community)",
+    title: "Akan names — the day-naming tradition",
+    date: "ongoing",
+    href: "https://en.wikipedia.org/wiki/Akan_names",
+    note:
+      "Reference for the Akan day-naming system used in the film. The protagonist's region (Gold Coast / Akan) and the seven names spoken in the Jamaica scene are drawn from this tradition.",
+  },
+  {
+    id: "MI1",
+    type: "secondary",
+    authorOrBody: "Cambridge History in Africa",
+    title: "Ethnicities of Enslaved Africans in the Diaspora: On the Meanings of 'Mina' Again",
+    date: "modern scholarship",
+    href:
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B19B462581852D91BE63F59180DAAB7B/S0361541300003788a.pdf/ethnicities-of-enslaved-africans-in-the-diaspora-on-the-meanings-of-mina-again.pdf",
+    note:
+      "Load-bearing for the film's commitment to Akan-speaking majority among Gold Coast cargoes in this period, and for the term 'Mina' in diaspora records.",
+  },
+  {
+    id: "TW1",
+    type: "secondary",
+    authorOrBody: "Harvard — Twi Online",
+    title: "Nkanee — Counting in Twi",
+    date: "ongoing",
+    href: "https://elias.unix.fas.harvard.edu/index.php/languages/twi/Beginning/6/Counting",
+    note:
+      "Reference for the Twi numerals used in the film's opening sequence (baako, mmienu, mmiɛnsa, ɛnan, enum, nsia, nson, nwɔtwe, nkron, edu, dubaako, dumienu, dumiɛnsa, dunan, dunum).",
+  },
+  {
+    id: "CC1",
+    type: "secondary",
+    authorOrBody: "Wikipedia (community)",
+    title: "Cape Coast Castle",
+    date: "ongoing",
+    href: "https://en.wikipedia.org/wiki/Cape_Coast_Castle",
+    note:
+      "Background on the embarkation point for the Zong's enslaved cargo. The Zong left Cape Coast on 18 August 1781.",
+  },
 ];
 
 const TYPE_LABEL: Record<Source["type"], string> = {

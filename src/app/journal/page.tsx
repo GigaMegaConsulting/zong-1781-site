@@ -16,6 +16,52 @@ type Entry = {
 const ENTRIES: Entry[] = [
   {
     date: "4 October 2026",
+    title: "The protagonist is Akan — from the Gold Coast, not the Bight of Biafra",
+    body: (
+      <>
+        <p>
+          The earlier working assumption for the central African protagonist of the film — that he was
+          taken from the Bight of Biafra, in parallel with Olaudah Equiano&apos;s own origin region —
+          is now <strong className="font-normal italic text-[color:var(--color-amber)]">corrected</strong>.
+          The record is more specific than we had been.
+        </p>
+        <p className="mt-4">
+          The <em>Zong</em> departed Cape Coast Castle on 18 August 1781, having acquired enslaved
+          Africans at Cape Coast and Accra on the Gold Coast — modern Ghana. The ship then called at
+          São Tomé for water and left São Tomé for Jamaica on 6 September 1781. The hold therefore
+          carried primarily <strong className="font-normal italic text-[color:var(--color-amber)]">Akan speakers</strong>:
+          Fante on the coast, and interior Twi dialects from captives sold through Fante middlemen,
+          with smaller numbers of Ga, Guan, Ewe, and Gbe speakers. Three to four distinct languages
+          would have been audible aboard. The composite protagonist is Akan.
+        </p>
+        <p className="mt-4">
+          The film&apos;s cold-open sequence — ninety seconds of darkness, breath, and a count that
+          stops before sixteen — is now written in <strong className="font-normal italic text-[color:var(--color-amber)]">Twi</strong>,
+          Fante dialect preferred. The specific numerals, from one to fifteen, are: baako, mmienu,
+          mmiɛnsa, ɛnan, enum, nsia, nson, nwɔtwe, nkron, edu, dubaako, dumienu, dumiɛnsa, dunan,
+          dunum. The structure of the count — every number from eleven onward prefixed with
+          <em> du-</em>, the stem of ten — is itself an architectural act of memory on the protagonist&apos;s
+          part. The regularity is audible by design.
+        </p>
+        <p className="mt-4">
+          A later scene in Jamaica, years after the massacre, calls for the protagonist to speak
+          seven names. These names will be the seven Akan day names, one per day of the week — the
+          structure of the Akan naming tradition, in which every child receives a first name based on
+          the day they were born: Kodwo (Monday), Abena (Tuesday), Kweku (Wednesday), Yaa (Thursday),
+          Kofi (Friday), Kwame (Saturday), Esi (Sunday). Seven names. The whole community of the voyage,
+          said in the structure the community itself used.
+        </p>
+        <p className="mt-4">
+          The sources for these decisions are catalogued in the production&apos;s{" "}
+          <Link href="/sources">sources list</Link> and in the full research file inside the project.
+          The protagonist&apos;s name itself is not spoken on screen. The historical record did not
+          preserve the names of the people killed on the <em>Zong</em>, and the film honors that.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
     title: "Treatment drafted, three structural questions resolved",
     body: (
       <>
