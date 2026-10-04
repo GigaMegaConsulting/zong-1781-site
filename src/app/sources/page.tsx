@@ -57,6 +57,16 @@ const SOURCES: Source[] = [
       "Sharp's own account of the Zong, written between the first trial and the retrial. Contains the detail that the enslaved were thrown with their hands fettered; that 54 were cast overboard on the first day before short-water rationing was imposed; and Sharp's characterization of the court case as 'a mere mercenary business about the pecuniary value of the Negroes.' Transcript published online by Gloucestershire Archives.",
   },
   {
+    id: "LC1",
+    type: "secondary",
+    authorOrBody: "Lancaster City Council (compiled)",
+    title: "Biographies of individuals involved in the Zong",
+    date: "ongoing (PDF)",
+    href: "https://www.lancaster.gov.uk/assets/attach/13394/Biographies-of-individuals-involved-in-the-Zong.pdf",
+    note:
+      "Compiled biographies of the Gregson syndicate owners and the ship's officers. Draws on Walvin 2011, Baucom 2005, Krikler 2012. The source for the full Gregson syndicate membership, Collingwood's background as a ship's surgeon, Kelsall's suspension and reinstatement, and Stubbs's role as the only passenger and the only testifying witness.",
+  },
+  {
     id: "GG1",
     type: "legal",
     authorOrBody: "King's Bench",

@@ -16,6 +16,105 @@ type Entry = {
 const ENTRIES: Entry[] = [
   {
     date: "4 October 2026",
+    title: "The Gregson syndicate, Stubbs, and the plea in the record",
+    body: (
+      <>
+        <p>
+          A second primary-source upgrade, drawing on a biographical compilation
+          published by Lancaster City Council: the production now carries, in its working
+          record, the full membership of the Liverpool-based Gregson syndicate (William
+          Gregson, former mayor of Liverpool, and his sons John and James, with Edward
+          Wilson, James Aspinall, and George Case); the specifics of Captain Luke
+          Collingwood&apos;s career path (an unusual transfer from ship&apos;s surgeon to captain,
+          with the <em>Zong</em> being his debut as master); and three material facts about
+          the ship&apos;s officers that the current screenplay does not yet fully reflect.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Robert Stubbs was the only passenger aboard the Zong.
+          </strong>{" "}
+          Not formally crew. A former slave-ship captain, a former governor of the British
+          fort at Anomabu who was deposed in scandal and physically humiliated by local
+          Africans, Stubbs was fleeing West Africa aboard the <em>Zong</em> when the massacre
+          took place. Collingwood appointed him stand-in captain over the first mate James
+          Kelsall. He was the only witness who ever testified. His account is the court
+          record.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Kelsall was suspended by Collingwood during the voyage, then reinstated.
+          </strong>{" "}
+          He had disputed Collingwood&apos;s appointment of Stubbs. The record is clear that by
+          the time of the night of the proposal, these three men had an active bad history.
+          The current screenplay understates this; the next revision will fold it in.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            One voice in the record speaks English.
+          </strong>{" "}
+          Kelsall&apos;s own testimony records a brief exchange with an English-speaking African
+          aboard the <em>Zong</em>, who told Kelsall that rumour had spread among the enslaved
+          that they were about to be killed, and begged that{" "}
+          <em>
+            &ldquo;they might be suffered to live and would not ask for meat or water but
+            could live without either until they arrived at their determined port.&rdquo;
+          </em>{" "}
+          This is a specific documented sentence spoken by an unnamed enslaved African aboard
+          the <em>Zong</em>. It is now in the production&apos;s working record. Whether and how to
+          bring the character who spoke it into the film is an open question for the next
+          screenplay revision.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
+    title: "Shot lists for every scene — the writing scaffold is complete",
+    body: (
+      <>
+        <p>
+          The animatic shot-list pass is complete. All twenty-two scenes of the film now have
+          shot-by-shot breakdowns — approximately two hundred and twenty-five shots in total — with
+          per-shot image-generation prompts, voice-track specifications, ambient-sound notes, and
+          enforced shot-grammar rules for the massacre sequence. The scaffold the shoot will build
+          from is now in place.
+        </p>
+        <p className="mt-4">
+          A quick inventory of the writing-side scaffold:
+        </p>
+        <ul className="list-none space-y-3 pl-0 mt-5">
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>Treatment (five thousand words), scene list (twenty-two rows), shot grammar (twelve sections including the dignity rules enforced across the massacre).</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>Full first-draft screenplay for every scene.</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>Full first-draft shot list for every scene.</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>Ninety-minute pressure-test allocation across all three acts, specifying which beats cannot yield time and which scenes could cut if the running time grows.</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="serif italic text-[color:var(--color-amber)]">·</span>
+            <span>Research scaffold with twenty-three claims in the ledger (each sourced), six catalogued primary sources including Sharp&apos;s own hand, five character sheets, and the committed cultural grounding (Akan / Twi / seven day names).</span>
+          </li>
+        </ul>
+        <p className="mt-5">
+          The next phase of work is production rather than writing — recording a Twi voice track,
+          generating environmental plates for the first scene, assembling the opening ninety seconds
+          as an animatic, and benchmarking local image generation. That work takes time of a
+          different kind. The writing scaffold is what it needs to be.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
     title: "Sharp's own hand — a primary source now in the record",
     body: (
       <>
