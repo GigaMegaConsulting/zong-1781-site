@@ -46,7 +46,7 @@ export default function AboutPage() {
         </section>
 
         <section className="space-y-5 text-[color:var(--color-cream-soft)]/85">
-          <h2 className="serif text-2xl text-[color:var(--color-cream)]">What this film refuses to do</h2>
+          <h2 className="serif text-2xl text-[color:var(--color-cream)]">What this film commits to</h2>
           <ul className="list-none space-y-3 pl-0">
             <li className="flex gap-4">
               <span className="serif italic text-[color:var(--color-amber)]">·</span>
@@ -66,9 +66,10 @@ export default function AboutPage() {
             <li className="flex gap-4">
               <span className="serif italic text-[color:var(--color-amber)]">·</span>
               <span>
-                It will not treat the massacre as entertainment. Violence is held carefully — in sound, in
-                aftermath, in refusal to linger — and attention to the dignity of the people being killed is a
-                non-negotiable of every scene.
+                It depicts the Middle Passage and the massacre as what they were — overcrowding, fever, filth,
+                visible violence, bodies, chains, water. The film is a visceral, forensic record. The dignity of
+                the people killed on the ship is held by looking at what was done to them, without stylizing,
+                without spectacle, and without earning the audience cheap catharsis.
               </span>
             </li>
             <li className="flex gap-4">

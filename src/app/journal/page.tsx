@@ -16,6 +16,61 @@ type Entry = {
 const ENTRIES: Entry[] = [
   {
     date: "4 October 2026",
+    title: "The frame reset — a visceral film, not a restraint piece",
+    body: (
+      <>
+        <p>
+          A directional change, logged openly. Earlier entries in this journal committed the film
+          to a particular shape of restraint — the camera does not see a body meet the water, the
+          massacre is held in sound and off-screen, the register is <em>12 Years a Slave</em> and{" "}
+          <em>Son of Saul</em>. That frame is now being reset.
+        </p>
+        <p className="mt-4">
+          The film will instead depict the voyage as it was. Weeks at sea in a slaver&apos;s hold —
+          overcrowding, dysentery, gaol-fever that killed roughly sixty of the enslaved before any
+          water-shortage question arose, vomit, blood, filth, bodies removed through the hatch —
+          are on screen. The three nights of killings are on screen. The chains the enslaved were
+          thrown fettered in are visible, not only audible.
+        </p>
+        <p className="mt-4">
+          The reason for the shift is that restraint, done the way the earlier commitment proposed
+          it, risked letting the audience leave the theatre unmarked. The record of the <em>Zong</em>{" "}
+          is a record of specific things done to specific people over specific days, and the court
+          found a way to call those things an insurance claim. A film that refuses to look at what
+          the court refused to see is honouring the court&apos;s refusal in a different form.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            What stays.
+          </strong>{" "}
+          The protagonist is still the emotional centre of the film. The protagonist&apos;s name is
+          still never spoken on screen; the historical record did not preserve the names of those
+          killed, and the film honours that. The film does not clone the face or voice of any
+          identifiable real historical person. Arrival in Jamaica is not freedom. The <em>Zong</em>{" "}
+          case did not end British slavery; abolition came in stages, in 1807 and 1833. All of these
+          commitments remain.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            What changes.
+          </strong>{" "}
+          The camera looks. The shot grammar&apos;s rule against showing a body meeting water is
+          retired. The rule against showing a sailor&apos;s hand on a body in the act of killing is
+          retired. Children are present and seen in the hold. The hatch remains central but is no
+          longer the sole visual signifier of what happens above it.
+        </p>
+        <p className="mt-4">
+          The dignity of the people killed on the <em>Zong</em> is now carried, in this film&apos;s
+          choice, by looking without stylizing and without earning cheap catharsis. The reference
+          lineage shifts — toward <em>Come and See</em>, <em>Beasts of No Nation</em>, Steve
+          McQueen&apos;s <em>Western Deep</em>, and the parts of <em>Son of Saul</em> that do look.
+          The register is forensic. The camera is a witness.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "4 October 2026",
     title: "The Gregson syndicate, Stubbs, and the plea in the record",
     body: (
       <>
