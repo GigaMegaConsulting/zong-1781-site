@@ -15,6 +15,80 @@ type Entry = {
 
 const ENTRIES: Entry[] = [
   {
+    date: "5 October 2026",
+    title: "What the record says",
+    body: (
+      <>
+        <p>
+          The production has now read Granville Sharp&apos;s own 1783 account of the killings, his
+          diary and his letter to the Admiralty, all printed in Prince Hoare&apos;s <em>Memoirs of
+          Granville Sharp</em> (1820, public domain), and the law report of the King&apos;s Bench
+          hearing.
+          Each changed the film. Several entries below now carry dated corrections.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            The shape of the killings.
+          </strong>{" "}
+          They were not three even nights. On 29 November 1781, fifty-four people were thrown
+          overboard alive; women and children were among the first killed. On 1 December, forty-two
+          more. Rain fell that day, before the stock of water was consumed, and gave the crew six
+          casks. The killing went on after the rain: twenty-six more were thrown in with their hands
+          fettered, and ten leapt into the sea. One hundred and thirty-two in all, by the count in
+          Sharp&apos;s account; his diary and his letters give other totals. Sharp and the
+          passenger Robert Stubbs date the rain to 1 December; the mate later swore to a date some days after. The film follows
+          Sharp and Stubbs.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Jamaica, mistaken.
+          </strong>{" "}
+          On 27 November Jamaica was sighted. The captain ran the ship to leeward, saying he had
+          mistaken it for Hispaniola. The killings began two days later, in the Caribbean Sea,
+          leeward of the island the ship was bound for, not on the open Atlantic.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            The first verdict.
+          </strong>{" "}
+          The owners&apos; insurance claim was tried at Guildhall on 6 March 1783, before Lord
+          Mansfield and a jury, and the jury found for the owners at thirty pounds a head. The
+          film stages it without Sharp or Equiano; Sharp&apos;s diary records the account of the
+          killings reaching him on 19 March. In May, at King&apos;s Bench, a new trial was granted.
+          None is recorded, and no one was ever tried for the killings.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            The man who climbed back.
+          </strong>{" "}
+          Sharp&apos;s letter to the Admiralty records one man, cast overboard alive, who caught
+          hold of a rope hanging from the ship into the water, got back aboard unseen, hid, and was
+          saved. He is in the film. When he climbed back, and where he hid, are the film&apos;s
+          dramatization.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Seventy-eight minutes.
+          </strong>{" "}
+          The ninety-minute target is retired. The film now locks at about seventy-eight minutes.
+          Added time has to be earned by the record, plus a few minutes of held tempo, never in the
+          killings.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            What the film commits to.
+          </strong>{" "}
+          The survivor at its centre is never named, on screen, in the credits or on this
+          site. The film does not say who wrote the anonymous letter in the <em>Morning
+          Chronicle</em> of 18 March 1783; its author is not known. What the record gives is the next
+          day: Olaudah Equiano brought Granville Sharp an account of the killings, and Sharp&apos;s
+          diary records it. Every captive&apos;s name spoken in the film is invented, after the Akan
+          day-name calendar, and the closing cards say so. The record kept numbers, not names.
+        </p>
+      </>
+    ),
+  },
+  {
     date: "4 October 2026",
     title: "The frame reset — a visceral film, not a restraint piece",
     body: (
@@ -29,7 +103,7 @@ const ENTRIES: Entry[] = [
           The film will instead depict the voyage as it was. Weeks at sea in a slaver&apos;s hold —
           overcrowding, dysentery, gaol-fever that killed roughly sixty of the enslaved before any
           water-shortage question arose, vomit, blood, filth, bodies removed through the hatch —
-          are on screen. The three nights of killings are on screen. The chains the enslaved were
+          are on screen. The killings, from 29 November into December, are on screen. The chains the enslaved were
           thrown fettered in are visible, not only audible.
         </p>
         <p className="mt-4">
@@ -65,6 +139,15 @@ const ENTRIES: Entry[] = [
           lineage shifts — toward <em>Come and See</em>, <em>Beasts of No Nation</em>, Steve
           McQueen&apos;s <em>Western Deep</em>, and the parts of <em>Son of Saul</em> that do look.
           The register is forensic. The camera is a witness.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          this entry first spoke of &ldquo;three nights&rdquo; of killings. The record runs them from
+          29 November into December (see &ldquo;What the record says&rdquo;). The name rule is also
+          stricter now: no name is ever the protagonist&apos;s on screen. And abolition came in
+          stages: the slave trade in 1807, and slavery in the colonies by an Act of 1833.
         </p>
       </>
     ),
@@ -107,17 +190,34 @@ const ENTRIES: Entry[] = [
           <strong className="font-normal italic text-[color:var(--color-amber)]">
             One voice in the record speaks English.
           </strong>{" "}
-          Kelsall&apos;s own testimony records a brief exchange with an English-speaking African
-          aboard the <em>Zong</em>, who told Kelsall that rumour had spread among the enslaved
-          that they were about to be killed, and begged that{" "}
-          <em>
-            &ldquo;they might be suffered to live and would not ask for meat or water but
-            could live without either until they arrived at their determined port.&rdquo;
-          </em>{" "}
-          This is a specific documented sentence spoken by an unnamed enslaved African aboard
+          Kelsall&apos;s own sworn account, his Answer in the Court of Exchequer later in 1783,
+          records a brief exchange with an English-speaking African aboard the <em>Zong</em>, who
+          told Kelsall that the people below were murmuring at the fate of those already drowned,
+          and pleaded for their lives.
+          This is a specific documented plea made by an unnamed enslaved African aboard
           the <em>Zong</em>. It is now in the production&apos;s working record. Whether and how to
           bring the character who spoke it into the film is an open question for the next
           screenplay revision.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          this entry first quoted the plea, and placed it before the killings began; the mate&apos;s
+          account puts it after the first drownings. The open question is now settled: the plea is
+          in the film, spoken once. It stays out of all marketing, and this page no longer quotes it.
+        </p>
+        <p className="mt-4">
+          Further corrections. The Lancaster compilation is a tertiary source, drawn from Walvin,
+          Baucom and Krikler, not a primary one. Stubbs&apos;s account is not the court record: he was a
+          witness at the Guildhall trial, but the day-by-day figures come from the deposition of
+          the chief mate, Kelsall, who later swore his Answer in the Court of Exchequer, and
+          King&apos;s Bench heard argument by counsel, with no witnesses. That Stubbs was the only
+          witness ever to testify rests on the compilation alone. Kelsall&apos;s
+          suspension and reinstatement are recorded only in that compilation, and undated, so the
+          record does not show when they fell. And Sharp&apos;s letter to the Admiralty, as Hoare
+          prints it, gives the fourth owner as &ldquo;Cave&rdquo;, not Case; the spelling is
+          unresolved.
         </p>
       </>
     ),
@@ -165,6 +265,15 @@ const ENTRIES: Entry[] = [
           as an animatic, and benchmarking local image generation. That work takes time of a
           different kind. The writing scaffold is what it needs to be.
         </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          the ninety-minute target is retired. The film now locks at about seventy-eight minutes and
+          grows only through documented material, plus a few minutes of held tempo, never in the
+          killings. The protagonist&apos;s voice track, including the
+          opening count, is now in Fante, not Twi.
+        </p>
       </>
     ),
   },
@@ -175,9 +284,9 @@ const ENTRIES: Entry[] = [
       <>
         <p>
           Gloucestershire Archives has published a transcript of Granville Sharp&apos;s own letter
-          to William Baker, dated 23 May 1783 — written between the first trial of{" "}
-          <em>Gregson v Gilbert</em> in March and the retrial in the King&apos;s Bench the
-          following month. The transcript is now in the production&apos;s source register as{" "}
+          to William Baker, dated 23 May 1783 — written after the first trial of{" "}
+          <em>Gregson v Gilbert</em>, at Guildhall on 6 March, and in the days of the King&apos;s
+          Bench hearing of 21–22 May, at which a new trial was granted. The transcript is now in the production&apos;s source register as{" "}
           <strong className="font-normal italic text-[color:var(--color-amber)]">SH3</strong>, with
           the full link on the <Link href="/sources">sources</Link> page.
         </p>
@@ -197,8 +306,8 @@ const ENTRIES: Entry[] = [
         </p>
         <p className="mt-4">
           <strong className="font-normal italic text-[color:var(--color-amber)]">
-            Fifty-four people were cast into the sea on the first day — before any short-water
-            ration was imposed.
+            Fifty-four people were cast into the sea on the first day — and no one aboard had
+            been put on short allowance of water.
           </strong>{" "}
           The treatment and the first-draft screenplay had the killings paced across three nights
           roughly evenly. The record is heavier than that on the first night. Scene 6 (the proposal
@@ -221,6 +330,20 @@ const ENTRIES: Entry[] = [
           Equiano&apos;s voice is the film&apos;s access to the lower-London network that carried
           the account. Sharp&apos;s is now, through this letter, the film&apos;s access to his
           own.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          this entry first placed the letter between the first trial and a King&apos;s Bench
+          &ldquo;retrial&rdquo; the following month, and said no short-water ration had been
+          imposed before the first day. The King&apos;s Bench hearing, on 21–22 May, was argument on
+          whether to grant a new trial, not a retrial; and no one aboard was ever put on short
+          allowance of water. Two further lines went beyond the record. That the people thrown could
+          not swim or reach the surface is our inference from the fettering; Sharp says only that
+          their hands were bound to deprive them of all possibility of escaping. And how Equiano came
+          by his account is not recorded: the lower-London network above is the film&apos;s inference,
+          not a documented fact.
         </p>
       </>
     ),
@@ -250,9 +373,8 @@ const ENTRIES: Entry[] = [
           <li className="flex gap-4">
             <span className="serif italic text-[color:var(--color-amber)]">·</span>
             <span>
-              The protagonist is never named on screen. He is called{" "}
-              <em>Kweku</em> — Wednesday-born, Akan day name — in production records and on the
-              call sheet, but the film does not speak his name. The historical record did not
+              The protagonist is never named on screen. The film does not speak his
+              name. The historical record did not
               preserve the names of the people killed on the <em>Zong</em>, and the film honors
               that.
             </span>
@@ -261,9 +383,8 @@ const ENTRIES: Entry[] = [
             <span className="serif italic text-[color:var(--color-amber)]">·</span>
             <span>
               The seven day names the protagonist speaks in the Jamaica scene are earned on screen,
-              given to him by Yaa across the first and second nights of the massacre in the hold.
-              By the time the audience reaches that scene, every one of the seven has been placed
-              into the architecture of memory by someone it belonged to.
+              given to him in the hold. By the time the audience reaches that scene, every one of
+              the seven has been placed into the architecture of memory.
             </span>
           </li>
           <li className="flex gap-4">
@@ -296,6 +417,28 @@ const ENTRIES: Entry[] = [
           test on the full screenplay, and the primary-source blockers that remain — the Burney
           Collection facsimile of the <em>Morning Chronicle</em> letter above all.
         </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          this entry first gave the working name used for the protagonist in production records. It
+          has been removed. The rule is now stricter: no name is ever his on screen, and no credit,
+          poster, synopsis or press item names him. The day names spoken in the film belong to
+          others. A story detail about how those names are given has also been removed, so this
+          page does not reveal the story.
+        </p>
+        <p className="mt-4">
+          Further changes since this entry. The cold open is set on the Caribbean Sea, leeward of
+          Jamaica, where the killings took place, not on the North Atlantic. The ninety-minute target
+          is retired; the film now locks at about seventy-eight minutes (&ldquo;two hours&rdquo;
+          above was loose in any case). The rule against showing a body meet the water was retired
+          on 4 October (see &ldquo;The frame reset&rdquo;). The diary overlay now comes after
+          Equiano has left, over Sharp&apos;s own hand, and it is no longer the only primary text on
+          screen: Sharp&apos;s letter to the Admiralty of 2 July 1783 is seen in his own words. And
+          Sharp was never a party to <em>Gregson v Gilbert</em>. The owners won at Guildhall on 6
+          March 1783; at King&apos;s Bench in May a new trial was granted, and none is recorded.
+          What Sharp lost was the murder prosecution he pressed at the Admiralty; no one was ever tried.
+        </p>
       </>
     ),
   },
@@ -321,10 +464,10 @@ const ENTRIES: Entry[] = [
         </p>
         <p className="mt-4">
           The film&apos;s cold-open sequence — ninety seconds of darkness, breath, and a count that
-          stops before sixteen — is now written in <strong className="font-normal italic text-[color:var(--color-amber)]">Twi</strong>,
-          Fante dialect preferred. The specific numerals, from one to fifteen, are: baako, mmienu,
-          mmiɛnsa, ɛnan, enum, nsia, nson, nwɔtwe, nkron, edu, dubaako, dumienu, dumiɛnsa, dunan,
-          dunum. The structure of the count — every number from eleven onward prefixed with
+          stops before sixteen — is now written in <strong className="font-normal italic text-[color:var(--color-amber)]">Fante</strong>,
+          the coastal Akan of the protagonist. The specific numerals, from one to fifteen, are: kor,
+          ebien, ebaasa, anan, enum, esia, esuon, awɔtwe, akrɔn, du, dubiako, duebien, duebaasa,
+          duanan, duenum. The structure of the count — every number from eleven onward prefixed with
           <em> du-</em>, the stem of ten — is itself an architectural act of memory on the protagonist&apos;s
           part. The regularity is audible by design.
         </p>
@@ -341,6 +484,24 @@ const ENTRIES: Entry[] = [
           <Link href="/sources">sources list</Link> and in the full research file inside the project.
           The protagonist&apos;s name itself is not spoken on screen. The historical record did not
           preserve the names of the people killed on the <em>Zong</em>, and the film honors that.
+        </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          this entry first gave the count in Asante/Akuapem Twi forms (baako, mmienu, mmiɛnsa …),
+          described as &ldquo;Twi, Fante dialect preferred&rdquo;. The count above is now in Fante,
+          from public Fante listings (three for one to ten, two for eleven to fifteen), using the
+          majority forms where spellings differ; a native Fante performer&apos;s own forms will win
+          at recording. These are modern forms: no Fante numeral list from 1781 has been identified.
+          The name rule is also stricter now: no name is ever the protagonist&apos;s on screen, and
+          the seven day names are spoken as the names of others. Every captive&apos;s name the film
+          speaks is invented, after the Akan day-name calendar, and the closing cards say so.
+        </p>
+        <p className="mt-4">
+          The departure from Cape Coast Castle on 18 August, and the places of purchase, came from
+          secondary sources, and the departure port is disputed among them (some give Accra). What
+          the record documents is the departure from São Tomé on 6 September 1781.
         </p>
       </>
     ),
@@ -386,6 +547,18 @@ const ENTRIES: Entry[] = [
           The treatment lives in the production folder; the <Link href="/sources">sources list</Link>{" "}
           and the character sheets are the next pass.
         </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          Sharp was not a party to <em>Gregson v Gilbert</em>. The owners&apos; claim was won at
+          Guildhall on 6 March 1783, before the case reached Sharp; at King&apos;s Bench in May a new
+          trial was granted, and none is recorded. The courtroom is still the denouement. What Sharp
+          lost was the murder prosecution he pressed at the Admiralty; no one was ever tried. And how
+          Equiano came by his account is not recorded: the network of sailors and dockworkers above
+          is the film&apos;s inference, not the record. The case first surfaced at the owners&apos;
+          trial at Guildhall on 6 March 1783.
+        </p>
       </>
     ),
   },
@@ -424,6 +597,22 @@ const ENTRIES: Entry[] = [
           Library and is not yet digitally accessible. Until we have it in facsimile, nothing from
           the letter can be reproduced directly in the film or on this site.
         </p>
+        <p className="mt-4">
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          the upgrades above did not rest on the Walvin monograph, which the production has not yet
+          consulted. They relied on Walvin&apos;s transcription as quoted at second hand and on
+          secondary sources on the web; Hoare&apos;s <em>Memoirs</em> was read on 5 October.
+          Sharp&apos;s diary, as Hoare prints it, says &ldquo;one hundred and thirty&rdquo;, not
+          more: &ldquo;more than one hundred and thirty&rdquo; was the film&apos;s own wording, not
+          Sharp&apos;s. His other papers give other figures: 122 and 133 in his letter to the
+          Admiralty, 132 in his account of the killings. The film now follows the day-by-day count
+          (see &ldquo;What the record says&rdquo;). And the <em>Morning Chronicle</em> letter is
+          digitized, in the Burney Collection on Gale and in the British Newspaper Archive, but it
+          sits behind paywalls and the production has not yet retrieved it. Until it is read,
+          nothing from it is quoted in the film or on this site.
+        </p>
       </>
     ),
   },
@@ -460,15 +649,23 @@ const ENTRIES: Entry[] = [
       <>
         <p>
           The anonymous letter in the <em>Morning Chronicle</em> on 18 March 1783 — the one that first put the
-          massacre into public view — is a historically contested document. Scholarship divides between three
-          positions: Equiano wrote it; Granville Sharp wrote it or something close; the author is unknown and
-          unknowable.
+          massacre into public view — is unsigned, and its authorship is a contested question.
         </p>
         <p className="mt-4">
-          The film&apos;s dramatization statement names a specific choice: Equiano writes the letter, calls on
-          Sharp the day after publication, and Sharp carries the campaign into the Admiralty. Every event in that
-          version is in the record. The ambiguity is kept visible in the production notes and in the{" "}
-          <Link href="/sources">sources list</Link>, not hidden under a false certainty.
+          <strong className="font-normal italic text-[color:var(--color-amber)]">
+            Correction, 5 October 2026:
+          </strong>{" "}
+          this entry originally recorded a choice to dramatize Equiano as the letter&apos;s writer.
+          That choice is retracted: no source the production holds supports it. The film does not
+          attribute the letter, and its author is not known. What the record does give is the next
+          day: on 19 March 1783 Olaudah Equiano brought Granville Sharp an account of the killings,
+          and Sharp&apos;s diary records it. That is what the film shows. Sharp then carried the
+          campaign to the Admiralty. The entry&apos;s first paragraph also described the scholarship
+          as divided among three candidate authors, Equiano among them; no source the production
+          holds supports the Equiano attribution, the film attributes the letter to no one, and that
+          sentence has been replaced. The
+          open question stays visible in the production notes and in
+          the <Link href="/sources">sources list</Link>, not hidden under a false certainty.
         </p>
       </>
     ),

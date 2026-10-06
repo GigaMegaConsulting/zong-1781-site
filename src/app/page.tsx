@@ -55,15 +55,19 @@ export default function HomePage() {
             They counted cargo. History remembers people.
           </p>
           <p className="mt-10 text-[15px] leading-relaxed text-[color:var(--color-cream-soft)]/90 max-w-2xl">
-            In the autumn of 1781, more than one hundred and thirty enslaved Africans were murdered aboard an English
-            slave ship called the <em>Zong</em>, thrown into the sea by its crew and later claimed as jettisoned
-            cargo on an insurance writ. Sixteen months later, in London, an anonymous letter in <em>The Morning
-            Chronicle</em> refused to let the killings be forgotten.
+            From 29 November into December 1781, the crew of an English slave ship called the <em>Zong</em> killed
+            132 enslaved Africans: 122 thrown alive into the sea, and ten who leapt rather than have their hands
+            fettered. Its owners then claimed their value from the underwriters as lost cargo, and on 6 March 1783
+            a jury at Guildhall found for the owners at £30 a head. On 18 March an anonymous letter about the
+            killings appeared in <em>The Morning Chronicle</em>. Its author is not known. The next day, Olaudah
+            Equiano brought Granville Sharp an account of the killings, and Sharp&apos;s diary records it. In May
+            the Court of King&apos;s Bench granted the underwriters a new trial. None is recorded, and no one was
+            ever tried for the killings.
           </p>
           <p className="mt-6 text-[15px] leading-relaxed text-[color:var(--color-cream-soft)]/90 max-w-2xl">
             This film tells that story through three lives — the African protagonist on the ship, the ordinary
-            English sailor on the deck, and the formerly-enslaved African in London who wrote the letter. It is a
-            serious historical drama made with AI assistance and historical care.
+            English sailor on the deck, and Olaudah Equiano, a formerly-enslaved man living in London who brought
+            the account to Sharp. It is a serious historical drama made with AI assistance and historical care.
           </p>
 
           <div className="mt-12 flex flex-wrap items-center gap-4 text-sm">
@@ -93,7 +97,7 @@ export default function HomePage() {
         <section className="px-6 sm:px-10 py-24 max-w-5xl mx-auto">
           <p className="text-[11px] uppercase tracking-[0.3em] text-[color:var(--color-amber)]/80 mb-5">Three lives</p>
           <h2 className="serif text-4xl sm:text-5xl max-w-3xl">
-            The massacre at sea, the deck above it, and the letter in London.
+            The massacre at sea, the deck above it, and the account in London.
           </h2>
 
           <div className="mt-14 grid gap-10 sm:grid-cols-3">
@@ -101,19 +105,18 @@ export default function HomePage() {
               roman="I"
               title="On the ship"
               image="/perspective-ship.png"
-              body="A young African, taken months earlier from his home region. Below decks he counts, remembers, and keeps someone else's name alive. The dignity the ship is designed to strip from him is what the film is built around."
+              body="A young Fante-speaking man from the Gold Coast, months into the crossing. No captive's name on the Zong was preserved, and the film does not invent one for him. Below decks he counts and remembers. The dignity the ship is designed to strip from him is what the film is built around."
             />
             <Perspective
               roman="II"
               title="On the deck"
               image="/perspective-deck.png"
-              body="An ordinary English sailor, two or three voyages into this work. He is not the man deciding the massacre. He is the man next to it. The film holds him in that specific moral weight — not a monster, not a hero."
+              body="An ordinary English sailor, two or three voyages into this work. He is not the man who orders the killings. He is aboard the ship where they happen, and the film holds him to the weight of that complicity — not a monster, not a hero."
             />
             <Perspective
               roman="III"
               title="In London"
-              image="/perspective-london.png"
-              body="Olaudah Equiano, a formerly-enslaved African in London in March 1783, hearing the account through maritime and diasporic networks. The anonymous letter in the Morning Chronicle is his. Granville Sharp, who takes the case into the courts, enters as a crucial supporting character."
+              body="Olaudah Equiano, a formerly-enslaved man living in London in March 1783. Who wrote the anonymous letter in the Morning Chronicle is not known, and the film does not say. What the record holds is his visit: on 19 March he brought Granville Sharp an account of the killings. Sharp, who pressed the Admiralty to prosecute the crew for murder, enters as a crucial supporting character."
             />
           </div>
         </section>
@@ -134,16 +137,20 @@ export default function HomePage() {
             <div className="sm:col-span-3 space-y-5 text-[15px] leading-relaxed text-[color:var(--color-cream-soft)]/90">
               <p>
                 The enslaved African is the emotional centre of the film. He is not a device for a European
-                character&apos;s moral arc. Arrival in Jamaica is not freedom — the people who survived the crossing
-                were offloaded into chattel slavery that did not end for decades.
+                character&apos;s moral arc.
               </p>
               <p>
-                The Zong did not end British slavery. Abolition came in stages — in 1807 and 1833 — and the Zong
-                case contributed to a mobilisation that was already underway. The film will not narrate the massacre
-                as a turning point it was not.
+                The Zong did not end British slavery. Abolition came in stages — the slave trade in 1807, slavery in
+                the British Caribbean in 1834, with apprenticeship ending only in 1838. The Zong case contributed to
+                abolitionist mobilisation; it was neither its trigger nor its cause. The film will not narrate the
+                massacre as a turning point it was not.
               </p>
               <p>
-                The names of the people killed on the Zong were not recorded. The court tracked them only as a
+                For the Zong&apos;s survivors, arrival in Jamaica was not freedom. They were landed into chattel
+                slavery that did not end for decades.
+              </p>
+              <p>
+                The names of the people killed on the Zong were not preserved. The record keeps them only as a
                 count. The absence of those names is itself a thematic hinge of the film and is treated as such in
                 the dramatization statement.
               </p>
@@ -187,9 +194,13 @@ export default function HomePage() {
             </p>
             <h3 className="serif text-2xl sm:text-3xl leading-tight">A film built from the historical record.</h3>
             <p className="mt-5 text-[14px] leading-relaxed text-[color:var(--color-cream-soft)]/85">
-              The African protagonist is a named composite. The crew member is a composite. Olaudah Equiano and
-              Granville Sharp are real people, portrayed within the written record. Specific scenes and dialogue
-              are invented and labelled as such. The film is made with AI assistance in a documented workflow.
+              The African protagonist is a composite, and the film gives him no name. Every captive&apos;s name
+              spoken in it is invented, following the Akan day-name calendar. The crew member is a composite.
+              Olaudah Equiano, Granville Sharp, Captain Luke Collingwood, the mate James Kelsall, Robert Stubbs,
+              Lord Mansfield and counsel in the case are real people. Where the record gives their words, the film
+              keeps them; their other dialogue is invented. Invented scenes and lines are disclosed in the
+              film&apos;s closing cards and in its dramatization statement. The film is made with AI assistance in
+              a documented workflow.
             </p>
           </div>
           <div>
